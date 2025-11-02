@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Konfigurasi koneksi database
-$koneksi = mysqli_connect("localhost", "root", "", "db_aset");
+require_once 'conn.php';
 
 
 
